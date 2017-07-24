@@ -1,0 +1,22 @@
+import re
+#-----------------------------------------------------------------------------------
+g = open('cs293.aiml','w')
+
+COURSECODE = "293"
+PROFESSOR = "A. A. Diwan"
+CREDITS = "3"
+SYLLABUS = "Implementation of, and experiments with, basic data structures and use in dynamic operations on data for different algorithms and problem domains; comparison of asymptotic complexity with real behaviour of algorithms; project."
+TITLE = "Data Structures Lab"
+STUDENTSTRENGTH = "0"
+VENUE = "N/A"
+VENUE1 = "N/A"
+TIMESLOT = "N/A"
+#for AP,AA,AB,BB,BC,CC,CD,DD,DX,FR
+GRADES = ["0","0","0","0","0","0","0","0","0","0"]
+grade_index = {'AP':0,'AA':0,'AB':0,'BB':0,'BC':0,'CC':0,'CD':0,'DD':0,'DX':0,'FR':0}
+REFERENCES = "Kathleen Jensen, Niklaus Wirth and A. Mickel, Pascal User Manual and Report: Iso Pascal Standard, Springer Verlag, 4th Edition, October 1991, Bruno R. Preiss, Data Structures and Algorithms with Object-Oriented Design Patterns in C++, Wiley , Sons (Asia), 2001, Sartaj Sahni, Data Structures, Algorithms, and Applications in C++, WCB McGraw-Hill, International Edition, 1998, Michael Goodrich and Roberto Tamassia, Data Structures and Algorithms in Java, Second Edition, Wiley , Sons (Asia), 2001"
+TYPE = "Lab"
+DURATION = "Full Semester"
+HOMEPAGE = "http://moodle.iiitnr.ac.in/course"
+PREREQUISITES = "N/A"
+#-----------------------------------------------------------------------------------

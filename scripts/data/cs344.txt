@@ -1,0 +1,22 @@
+import re
+#-----------------------------------------------------------------------------------
+g = open('cs344.aiml','w')
+
+COURSECODE = "344"
+PROFESSOR = "G. Shivakumar"
+CREDITS = "6"
+SYLLABUS = "Search, Logic, Constraint Programming, Neural Networks"
+TITLE = "Introduction to Artificial Intelligence"
+STUDENTSTRENGTH = "95"
+VENUE = "LH 301"
+VENUE1 = "Lecture Hall 301"
+TIMESLOT = "2"
+#for AP,AA,AB,BB,BC,CC,CD,DD,DX,FR
+GRADES = ["1","9","14","35","21","2","2","8","0","3"]
+grade_index={'AP':0,'AA':1,'AB':2,'BB':3,'BC':4,'CC':5,'CD':6,'DD':7,'DX':8,'FR':9}
+REFERENCES = "George F.Luger and William A. Stubblefield, AI: Structures and Strategies for Complex problem solving, 2nd edition, Benjamin Cummins Publishers, 1997. Stuart Russell and Peter Norvig, Artificial Intelligence: A Modern Approach, Prentice Hall Series in AI, 1995. Mark Stefik, Introduction to Knowledge Systems, Morgan Kaufmann, 1995. Winston P.H., Artificial Intelligence, 3rd edition, Addison Wesley, 1995. E. Rich and K.Knight, Artificial Intelligence, Tata McGraw Hill, 1992. E. Charniack and D. Mcdermott, Artificial Intelligence, Addison Wesley, 1987. N.J.Nilsson, Principles of Artificial Intelligence, Morgan Kaufmann, 1985"
+TYPE = "Theory"
+DURATION = "Full Semester"
+HOMEPAGE = "http://moodle.iiitnr.ac.in"
+PREREQUISITES = "None"
+#-----------------------------------------------------------------------------------

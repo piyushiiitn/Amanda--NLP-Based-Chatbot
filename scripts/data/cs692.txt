@@ -1,0 +1,22 @@
+import re
+#-----------------------------------------------------------------------------------
+g = open('cs692.aiml','w')
+
+COURSECODE = "692"
+PROFESSOR = "---"
+CREDITS = "0"
+SYLLABUS = "N/A"
+TITLE = "R , D Project II"
+STUDENTSTRENGTH = "0"
+VENUE = "N/A"
+VENUE1 = "N/A"
+TIMESLOT = "N/A"
+#for AP,AA,AB,BB,BC,CC,CD,DD,DX,FR
+GRADES = ["0","0","0","0","0","0","0","0","0","0"]
+grade_index = {'AP':0,'AA':0,'AB':0,'BB':0,'BC':0,'CC':0,'CD':0,'DD':0,'DX':0,'FR':0}
+REFERENCES = "N/A"
+TYPE = "Theory"
+DURATION = "Full Semester"
+HOMEPAGE = "http://moodle.iiitnr.ac.in/course"
+PREREQUISITES = "N/A"
+#-----------------------------------------------------------------------------------

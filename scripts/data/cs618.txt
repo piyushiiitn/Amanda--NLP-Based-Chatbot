@@ -1,0 +1,22 @@
+import re
+#-----------------------------------------------------------------------------------
+g = open('cs618.aiml','w')
+
+COURSECODE = "618"
+PROFESSOR = "Uday Khedkar"
+CREDITS = "6"
+SYLLABUS = "The course consists of the following modules: (1) Introduction to program analysis and data flow analysis, (2) Bit vector data flow frameworks: live variables analysis, available expressions analysis, reaching definitions analysis, anticipable expressions analysis, partial redundancy elimination, (3) Mathematical abstractions in data flow analysis: lattice theory, characterizing data flow values and flow functions, algorithms for data flow analysis, complexity of data flow analysis. (4) General data flow frameworks: constant propagation, strongly live variables analysis, may and must pointer analysis, liveness analysis of heap data, (5) Interprocedural data flow analysis: Functional method, call strings method, call strings method using value contexts."
+TITLE = "Program Analysis"
+STUDENTSTRENGTH = "0"
+VENUE = "N/A"
+VENUE1 = "N/A"
+TIMESLOT = "N/A"
+#for AP,AA,AB,BB,BC,CC,CD,DD,DX,FR
+GRADES = ["0","0","0","0","0","0","0","0","0","0"]
+grade_index = {'AP':0,'AA':0,'AB':0,'BB':0,'BC':0,'CC':0,'CD':0,'DD':0,'DX':0,'FR':0}
+REFERENCES = "Uday P. Khedker, Amitabha Sanyal, Bageshri Karkare. Data flow analysis: Theory and Practice. CRC Press (Taylor and Francis Group), 2009 (Book Page: http://www.cse.iiitnr.ac.in/~uday/dfaBook-web)"
+TYPE = "Theory"
+DURATION = "Full Semester"
+HOMEPAGE = "http://www.cse.iiitnr.ac.in/~uday/courses/cs618-15"
+PREREQUISITES = "Nil"
+#-----------------------------------------------------------------------------------

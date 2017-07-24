@@ -1,0 +1,22 @@
+import re
+#-----------------------------------------------------------------------------------
+g = open('cs682.aiml','w')
+
+COURSECODE = "682"
+PROFESSOR = "Siva Kumar G."
+CREDITS = "6"
+SYLLABUS = "Software life cycle -- important steps and effort distribution. Aspects of estimation and scheduling. Software evaluation techniques-modular design : coupling and cohesion, Software and complexity measures. Issues in software reliability. System Analysis: Requirement analysis. Specification languages. Feasibility analysis. File and data structure design, Systems analysis tools. Software design methodologies, Data flow and Data Structure oriented design strategies. Software development, coding, verification, and integration. Issues in project management-team structure, scheduling, software quality assurance. Object Oriented methodology: object orineted paradigm, OO analysis and design, examples of methodolgies."
+TITLE = "Software Engineering"
+STUDENTSTRENGTH = "0"
+VENUE = "N/A"
+VENUE1 = "N/A"
+TIMESLOT = "N/A"
+#for AP,AA,AB,BB,BC,CC,CD,DD,DX,FR
+GRADES = ["0","0","0","0","0","0","0","0","0","0"]
+grade_index = {'AP':0,'AA':0,'AB':0,'BB':0,'BC':0,'CC':0,'CD':0,'DD':0,'DX':0,'FR':0}
+REFERENCES = "R. S. Pressman, Software Engineering - A Practioners Approach,3rd Edition, McGrawHill,1992. J. Martin, Rapid Application Development, Maxwell MacMillan, 1991. B. Meyer, Object Oriented Software Construction, Prentice Hall, 1988. G. G. Schulmeyer, Zero Defect Software, McGraw-Hill, 1992. J. Rumbaugh et. al., Object Oriented Modeling and Design, Prentice Hall,1991."
+TYPE = "Theory"
+DURATION = "Full Semester"
+HOMEPAGE = "http://www.cse.iiitnr.ac.in/~cs682/"
+PREREQUISITES = "N/A"
+#-----------------------------------------------------------------------------------

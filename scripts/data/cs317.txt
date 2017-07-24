@@ -1,0 +1,22 @@
+import re
+#-----------------------------------------------------------------------------------
+g = open('cs317.aiml','w')
+
+COURSECODE = "317"
+PROFESSOR = "NL. Sarda"
+CREDITS = "6"
+SYLLABUS = "SQL, JDBC, Database Design, Query Processing, Transaction Systems"
+TITLE = "Introduction to Database Systems"
+STUDENTSTRENGTH = "131"
+VENUE = "LH 301"
+VENUE1 = "Lecture Hall 301"
+TIMESLOT = "6"
+#for AP,AA,AB,BB,BC,CC,CD,DD,DX,FR
+GRADES = ["0","20","15","30","18","13","20","7","0","8"]
+grade_index={'AP':0,'AA':1,'AB':2,'BB':3,'BC':4,'CC':5,'CD':6,'DD':7,'DX':8,'FR':9}
+REFERENCES = "Abraham Silberschatz, Henry F. Korth and S. Sudarshan, Database System Concepts 5th Ed, McGraw Hill, 2006"
+TYPE = "Theory"
+DURATION = "Full Semester"
+HOMEPAGE = "http://www.moodle.iiitnr.ac.in/course/"
+PREREQUISITES = "CS213"
+#-----------------------------------------------------------------------------------

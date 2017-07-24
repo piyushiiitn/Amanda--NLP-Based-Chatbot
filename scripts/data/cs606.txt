@@ -1,0 +1,22 @@
+import re
+#-----------------------------------------------------------------------------------
+g = open('cs606.aiml','w')
+
+COURSECODE = "606"
+PROFESSOR = "Abhiram Ranade"
+CREDITS = "6"
+SYLLABUS = "Elementary Parallel Algorithms, Graph Embeddings, Packet Routing, Communication Networks, VLSI Layouts, Map Reduce"
+TITLE = "Foundations of Parallel Computation"
+STUDENTSTRENGTH = "18"
+VENUE = "SIC 301"
+VENUE1 = "SIC 301, KreSit"
+TIMESLOT = "1"
+#for AP,AA,AB,BB,BC,CC,CD,DD,DX,FR
+GRADES = ["1","1","1","3","1","4","5","0","0","2"]
+grade_index={'AP':0,'AA':1,'AB':2,'BB':3,'BC':4,'CC':5,'CD':6,'DD':7,'DX':8,'FR':9}
+REFERENCES = "VLSI Layouts, Parallel Computing Berkley"
+TYPE = "Theory"
+DURATION = "Full Semester"
+HOMEPAGE = "http://www.cse.iiitnr.ac.in/~ranade/606/"
+PREREQUISITES = "CS218"
+#-----------------------------------------------------------------------------------

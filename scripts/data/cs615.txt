@@ -1,0 +1,22 @@
+import re
+#-----------------------------------------------------------------------------------
+g = open('cs615.aiml','w')
+
+COURSECODE = "615"
+PROFESSOR = "Supratik Chakraborty"
+CREDITS = "6"
+SYLLABUS = "Reasoning about sequential programs:, Programs as (possibly infinite) state transition systems; specifying program correctness using pre- and post-conditions; partial and total correctness semantics; Hoare logic and its rules for a simple imperative sequential language; weakest pre-condition and strongest post-condition semantics; central importance of invariants in program verification., Brief introduction to lattices and the theory of abstract interpretation; some numerical abstract domains: intervals, difference bound matrices, octagons, polyhedra; computing abstract post-conditions and abstract loop invariants; refining abstractions and counterexample-guided abstraction refinement, Predicate abstraction and boolean programs; converting assertion to a location reachability problem; location reachability using predicate abstraction for simple programs and for programs with (possibly recursive) function calls; discovering predicates using counterexample-guided abstraction refinement, Program verification as a constraint solving problem; checking properties of bounded and unbounded executions of programs using constraint solving, Shape analysis: use of separation logic and three-valued logic, Reasoning about reactive systems:, Introduction to temporal logics: LTL and CTL; Kripke structures as models of reactive (hardware and software) systems; LTL and CTL model checking algorithms and some applications, properties. Computer-Aided Verification: Deductive and model-theoretic approach. Automatic verification of finite state systems. Case study of languages and systems like Z, B, spin, PVS, step."
+TITLE = "Formal Specification and Verification of Programs"
+STUDENTSTRENGTH = "0"
+VENUE = "N/A"
+VENUE1 = "N/A"
+TIMESLOT = "N/A"
+#for AP,AA,AB,BB,BC,CC,CD,DD,DX,FR
+GRADES = ["0","0","0","0","0","0","0","0","0","0"]
+grade_index = {'AP':0,'AA':0,'AB':0,'BB':0,'BC':0,'CC':0,'CD':0,'DD':0,'DX':0,'FR':0}
+REFERENCES = "Logic in Computer Science: Modeling and Reasoning about Systems, M. Huth and M. Ryan, Cambridge University Press, 2004, Chapter 15, Methods and Logics for Proving Programs by P. Cousot, in Handbook of Theoretical Computer Science, Vol B (Formal Models and Semantics), edited by Jan Van Leeuwen, The MIT Press, 1994, Research papers and survey articles to be announced in class"
+TYPE = "Theory"
+DURATION = "Full Semester"
+HOMEPAGE = "http://www.cse.iiitnr.ac.in/~supratik/courses/cs615/"
+PREREQUISITES = "NIL"
+#-----------------------------------------------------------------------------------

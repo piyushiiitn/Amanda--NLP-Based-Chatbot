@@ -1,0 +1,22 @@
+import re
+#-----------------------------------------------------------------------------------
+g = open('cs747.aiml','w')
+
+COURSECODE = "747"
+PROFESSOR = "Shivaram Kalyanakrishnan"
+CREDITS = "6"
+SYLLABUS = "Agency, intelligence, and learning , Exploration and multi-armed bandits, Markov Decision Problems and planning, Reinforcement learning, Search, Multi-agent systems and multi-agent learning, Case studies"
+TITLE = "Foundations of Intelligent and Learning Agents"
+STUDENTSTRENGTH = "0"
+VENUE = "N/A"
+VENUE1 = "N/A"
+TIMESLOT = "N/A"
+#for AP,AA,AB,BB,BC,CC,CD,DD,DX,FR
+GRADES = ["0","0","0","0","0","0","0","0","0","0"]
+grade_index = {'AP':0,'AA':0,'AB':0,'BB':0,'BC':0,'CC':0,'CD':0,'DD':0,'DX':0,'FR':0}
+REFERENCES = "Reinforcement Learning: An Introduction, Richard S. Sutton and Andrew G. Barto, MIT Press, 1998. [Chapters 1, 2, 3, 4, 6, 8, and 9], Dynamic Programming and Optimal Control, Volume II, Dimitri P. Bertsekas, 4th edition, Athena Scientific, 2012. [Chapter 2], Regret Analysis of Stochastic and Nonstochastic Multi-armed Bandit Problems, Sebastien Bubeck and Nicolo Cesa-Bianchi, Foundations and Trends in Machine Learning, Volume 5, Number 1, 2012. [Chapters 2 and 3], Selected research papers"
+TYPE = "Theory"
+DURATION = "Full Semester"
+HOMEPAGE = "http://www.cse.iiitnr.ac.in/~shivaram/teaching/cs747-a2015/"
+PREREQUISITES = "N/A"
+#-----------------------------------------------------------------------------------

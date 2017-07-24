@@ -1,0 +1,22 @@
+import re
+#-----------------------------------------------------------------------------------
+g = open('cs613.aiml','w')
+
+COURSECODE = "613"
+PROFESSOR = "Sanyal Amitabha"
+CREDITS = "6"
+SYLLABUS = "Illustration of Basic concepts in FP using Haskell: Functions as first class objects, Laziness, Datatypes and pattern matching, Types, Classes and overloading, Side-effect free IO. Introduction to Lambda Calculus: Syntax of Lambda terms, Alpha, beta and delta conversions, Normal forms, applicative order and normal order reductions, Church-Rosser theorems, Y combinator and recursion. , Type Inference: Hindley-Milner type checking algorithm and its extension to handle type classes. Implementation of FP Languages: Supercombinators and Lambda Lifting, Graph reduction, Three instruction machine (TIM). Selected topics in Functional Programming: Bird-Meertens Formalism, Abstract Interpretation, Functional Programming using Monads. Selected topics in Functional Programming: Bird-Meertens Formalism, Abstract Interpretation, Functional Programming using Monads."
+TITLE = "Design , Implementation of Functional Programming"
+STUDENTSTRENGTH = "0"
+VENUE = "N/A"
+VENUE1 = "N/A"
+TIMESLOT = "N/A"
+#for AP,AA,AB,BB,BC,CC,CD,DD,DX,FR
+GRADES = ["0","0","0","0","0","0","0","0","0","0"]
+grade_index = {'AP':0,'AA':0,'AB':0,'BB':0,'BC':0,'CC':0,'CD':0,'DD':0,'DX':0,'FR':0}
+REFERENCES = "P. Hudak, S. Peyton Jones and P. Wadler (eds), Report on the Programming Language Haskell, A Non-strict Purely Functional Language (v 1.2), ACM SIGPLAN Notices, 21(12):37-79, December 1986. , P. Hudak and J. Fasel. A Gentle Introduction to Haskell. ACM SIGPLAN Notices, 21(12):37-79, December 1986. , R. Bird and P. Wadler. Introduction to Functional Programming, Prentice Hall, New York, 1988. , J. R. Hindley and J. P. Seldin. Introduction to Lambda Calculus and Combinators. Cambridge University Press, 1984. , S. Peyton Jones. The Implementation of Functional Programming languages, Prentice Hall, New York, 1987. , G. Argo, Improving the Three Instruction Machine, Procs. of FPCA, ACM Press, 1989."
+TYPE = "Theory"
+DURATION = "Full Semester"
+HOMEPAGE = "http://www.cse.iiitnr.ac.in/~as/fpcourse/fpcourse.html"
+PREREQUISITES = "NIL"
+#-----------------------------------------------------------------------------------

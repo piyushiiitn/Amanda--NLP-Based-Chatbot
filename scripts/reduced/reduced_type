@@ -1,0 +1,8 @@
+type cs747 course
+cs747 theory course lab
+cs747 type
+type cs747
+theory lab cs747
+lab theory cs747
+cs747 lab theory
+cs747 theory lab

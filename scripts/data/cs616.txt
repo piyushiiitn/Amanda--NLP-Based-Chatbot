@@ -1,0 +1,22 @@
+import re
+#-----------------------------------------------------------------------------------
+g = open('cs616.aiml','w')
+
+COURSECODE = "616"
+PROFESSOR = "Supratim Biswas"
+CREDITS = "6"
+SYLLABUS = "Parallelizing Compilers - motivation and overview, structure of a parallelizing compiler; review of code optimization techniques in compilers for sequential machines. Parallelism detection - data dependence, direction vectors, loop carried and loop independent dependences; tests for data dependence and their applicability, construction of data dependence graph. Control dependence and control dependence graph. Restructuring transformations and automatic extraction of parallelism; representation of iteration spaces of multiply nested loops; loop based transformations such as loop distribution, loop coalescing, loop inter-change and cycle shrinking transformation. Introduction to machine models and associated algorithms for parallel code generation and task graph construction. Interprocedural analysis - aliasing information, summary data flow analysis, interprocedural constant propagation, interprocedural data dependence analysis and parallelisation of call statements. Partitioning and Scheduling of a task graph; models for communication, partitioning and scheduling algorithms, dynamic scheduling algorithms, target code generation. Case studies of contemporary parallelising compiler efforts."
+TITLE = "Parallelizing Compilers"
+STUDENTSTRENGTH = "0"
+VENUE = "N/A"
+VENUE1 = "N/A"
+TIMESLOT = "N/A"
+#for AP,AA,AB,BB,BC,CC,CD,DD,DX,FR
+GRADES = ["0","0","0","0","0","0","0","0","0","0"]
+grade_index = {'AP':0,'AA':0,'AB':0,'BB':0,'BC':0,'CC':0,'CD':0,'DD':0,'DX':0,'FR':0}
+REFERENCES = "M. J. Wolfe, Optimizing Supercompilers for supercomputers ,MIT Press, 1989. V. Sarkar, Partitioning and Scheduling Parallel Programs for Execution on Multiprocessors, MIT Press, 1989. U. Banerjee, Dependence Analysis for Supercomputing, Norwell, Kluwer Academic Publishers, 1988."
+TYPE = "Theory"
+DURATION = "Full Semester"
+HOMEPAGE = "http://www.cse.iiitnr.ac.in/~cs616/"
+PREREQUISITES = "UG com"
+#-----------------------------------------------------------------------------------

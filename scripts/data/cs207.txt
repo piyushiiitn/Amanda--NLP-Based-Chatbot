@@ -1,0 +1,22 @@
+import re
+#-----------------------------------------------------------------------------------
+g = open('cs207.aiml','w')
+
+COURSECODE = "207"
+PROFESSOR = "S. Akshay"
+CREDITS = "6"
+SYLLABUS = "Propositions and predicates, proofs and proof techniques. Sets, relations and functions, cardinality, basic counting., Posets and lattices: Dilworth's theorem, inversion and distributive lattices., Graph theory : paths, cycles, trees, connectivity. , Group theory : Lagrange's theorem, homomorphisms, applications."
+TITLE = "Discrete Structures"
+STUDENTSTRENGTH = "0"
+VENUE = "N/A"
+VENUE1 = "N/A"
+TIMESLOT = "N/A"
+#for AP,AA,AB,BB,BC,CC,CD,DD,DX,FR
+GRADES = ["0","0","0","0","0","0","0","0","0","0"]
+grade_index = {'AP':0,'AA':0,'AB':0,'BB':0,'BC':0,'CC':0,'CD':0,'DD':0,'DX':0,'FR':0}
+REFERENCES = "1. Kenneth Rosen, Discrete Mathematics and its applications, 5th edition, Tata-McGraw Hill, 2002., 2. C.L. Liu, Elements of Discrete mathematics, McGraw-Hill, 1985., 3. D. B. West, Introduction to Graph Theory, Prentice Hall of , India, 1998., 4. M. Artin, Algebra, Prentice-Hall India, 1991."
+TYPE = "Theory"
+DURATION = "Full Semester"
+HOMEPAGE = "http://moodle.iiitnr.ac.in/course"
+PREREQUISITES = "N/A"
+#-----------------------------------------------------------------------------------

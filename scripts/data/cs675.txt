@@ -1,0 +1,22 @@
+import re
+#-----------------------------------------------------------------------------------
+g = open('cs675.aiml','w')
+
+COURSECODE = "675"
+PROFESSOR = "Parag Chaudhuri"
+CREDITS = "0"
+SYLLABUS = "1. Rasterization of lines and circles, Clipping algorithms, 2. Synthetic Camera and Image formation models, 3. 2D and 3D transformations, 4. The Modelling-Viewing Pipeline, 5. Visibility, 6. Ray Tracing, 7. Shading and Illumination models, 8. Texture Mapping, 9. Curves and Surfaces, 10. Hierarchical Modelling, Animation."
+TITLE = "Computer Graphics"
+STUDENTSTRENGTH = "0"
+VENUE = "N/A"
+VENUE1 = "N/A"
+TIMESLOT = "N/A"
+#for AP,AA,AB,BB,BC,CC,CD,DD,DX,FR
+GRADES = ["0","0","0","0","0","0","0","0","0","0"]
+grade_index = {'AP':0,'AA':0,'AB':0,'BB':0,'BC':0,'CC':0,'CD':0,'DD':0,'DX':0,'FR':0}
+REFERENCES = "1.Interactive Computer Graphics A topdown approach using OpenGL, 5th ed., Edward Angel, Pearson Education Low Price Indian Edition, 2008., 2.Computer Graphics using open GL, 3rd ed., F. S. Hill Jr. and S. M. Kelley, Pearson Education Low Price Indian Edition, 2006., 3.Computer Graphics with OpenGL, 3rd ed., D. D. Hearn and M. P. Baker, Pearson Education Low Price Indian Edition, 2003., 4.Fundamentals of Computer Graphics, 3rd ed., Peter Shirley, A K Peters, 2009."
+TYPE = "Theory+Project"
+DURATION = "Full Semester"
+HOMEPAGE = "http://www.cse.iiitnr.ac.in/~paragc/teaching/2013/cs675"
+PREREQUISITES = "None"
+#-----------------------------------------------------------------------------------

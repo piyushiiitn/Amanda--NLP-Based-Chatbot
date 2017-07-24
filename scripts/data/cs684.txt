@@ -1,0 +1,22 @@
+import re
+#-----------------------------------------------------------------------------------
+g = open('cs684.aiml','w')
+
+COURSECODE = "684"
+PROFESSOR = "Krithi Ramamritham"
+CREDITS = "6"
+SYLLABUS = "Introduction to Embedded systems, hardware/software codesign, Embedded micro controller cores, embedded memories, Examples of embedded systems, sensors and interfacing techniques, Real-time concepts, real-time operating systems, Required RTOS services/capabilities (in contrast with traditional OS)., Resource Management/scheduling paradigms: static priorities, static schedules, dynamic scheduling, best effort current best practice in scheduling (e.g. Rate Monotonic vs. static schedules), Real-world issues: blocking, unpredictability, interrupts, caching, Examples of OSs for embedded systems - RT Linux, VRTX., Programming languages for embedded systems e.g., Handel-C and Esterel, system support for embedded systems, selected embedded system-based applications: process-control, robotics, etc. Software Development Methodology: Model based development, Statecharts, etc. Case studies, Controlling an Injection molding process, Flight simulator, digital call center handler, codec."
+TITLE = "Embedded Systems"
+STUDENTSTRENGTH = "0"
+VENUE = "N/A"
+VENUE1 = "N/A"
+TIMESLOT = "N/A"
+#for AP,AA,AB,BB,BC,CC,CD,DD,DX,FR
+GRADES = ["0","0","0","0","0","0","0","0","0","0"]
+grade_index = {'AP':0,'AA':0,'AB':0,'BB':0,'BC':0,'CC':0,'CD':0,'DD':0,'DX':0,'FR':0}
+REFERENCES = "Jack Ganssle, The Art of Designing Embedded Systems, Newnes, 1999., David Simon, An Embedded Software Primer, Addison Wesley, 2000., RTS: Real-Time Systems, by C.M. Krishna and Kang G. Shin, McGraw-Hill, 1997, ISBN 0-07-057043., J. A. Stankovic and K. Ramamritham, Advances in Hard Real-Time Systems, IEEE Computer Society Press, Washington DC, September 1993, 777 pages.Selected papers and references"
+TYPE = "Theory"
+DURATION = "Full Semester"
+HOMEPAGE = "http://moodle.iiitnr.ac.in/course"
+PREREQUISITES = "EE-712 (Embedded Systems) esp. for those wanting to do MTP in the area - else this may be seen as standalone course also)."
+#-----------------------------------------------------------------------------------

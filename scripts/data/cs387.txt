@@ -1,0 +1,22 @@
+import re
+#-----------------------------------------------------------------------------------
+g = open('cs387.aiml','w')
+
+COURSECODE = "387"
+PROFESSOR = "N. L. Sarda"
+CREDITS = "3"
+SYLLABUS = "Use of database systems supporting interactive SQL and $GLs, spread-sheets, client-server GUI development using packages like Power Builder or Gupta SQL, and using the web. Design of applications and user interfaces using these systems."
+TITLE = "Database and Information Systems Lab"
+STUDENTSTRENGTH = "0"
+VENUE = "N/A"
+VENUE1 = "N/A"
+TIMESLOT = "N/A"
+#for AP,AA,AB,BB,BC,CC,CD,DD,DX,FR
+GRADES = ["0","0","0","0","0","0","0","0","0","0"]
+grade_index = {'AP':0,'AA':0,'AB':0,'BB':0,'BC':0,'CC':0,'CD':0,'DD':0,'DX':0,'FR':0}
+REFERENCES = "N/A"
+TYPE = "Lab"
+DURATION = "Full Semester"
+HOMEPAGE = "http://moodle.iiitnr.ac.in/course"
+PREREQUISITES = "N/A"
+#-----------------------------------------------------------------------------------

@@ -1,0 +1,22 @@
+import re
+#-----------------------------------------------------------------------------------
+g = open('cs224.aiml','w')
+
+COURSECODE = "224"
+PROFESSOR = "---"
+CREDITS = "0"
+SYLLABUS = "Design of Computer Networking protocols at all layers: transmission media, data link protocols, media access control, routing and congestion control, admission control, traffic shaping and policing, Internetworking (IP) and transport layer protocols (TCP). Performance analysis of networks."
+TITLE = "Computer Networks"
+STUDENTSTRENGTH = "0"
+VENUE = "N/A"
+VENUE1 = "N/A"
+TIMESLOT = "N/A"
+#for AP,AA,AB,BB,BC,CC,CD,DD,DX,FR
+GRADES = ["0","0","0","0","0","0","0","0","0","0"]
+grade_index = {'AP':0,'AA':0,'AB':0,'BB':0,'BC':0,'CC':0,'CD':0,'DD':0,'DX':0,'FR':0}
+REFERENCES = "W. Stallings, Data and Computer Communications, 6th edition, Prentice Hall,2000., A. S. Tanenbaum, Computer Networks, 4th edition, Prentice Hall, 2003., F. Halsall, Data Communications, Computer Networks and Open Systems, 4th edition, Addison-Wesley.Walrand and Varaiya, High Performance Communication Networks, Morgan Kaufmann, 1996., D. E. Comer, Internetworking with TCP/IP: Principles, Protocols, Architecture, 3rd edition, Prentice Hall.W. R. Stevens, TCP/IP Illustrated Vol. I, Addison Wesley, 1994."
+TYPE = "Theory"
+DURATION = "Full Semester"
+HOMEPAGE = "http://moodle.iiitnr.ac.in/course"
+PREREQUISITES = "N/A"
+#-----------------------------------------------------------------------------------

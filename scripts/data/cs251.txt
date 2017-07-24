@@ -1,0 +1,22 @@
+import re
+#-----------------------------------------------------------------------------------
+g = open('cs251.aiml','w')
+
+COURSECODE = "251"
+PROFESSOR = "Sharat Chandran"
+CREDITS = "8"
+SYLLABUS = "To be updated., Introduction to the UNIX operating system (file system and directory structure, and processes). Unix tools (shell programming, grep, tar, compress, sed, find, sort etc). Programming in AWK. Introduction to World Wide Web (html, cgi). Programming Using Java, Graphical User Interface Programming using Java. Socket programming in Java. Programming tools (make, source code control using sccs/rcs, debuggers). Document processing using Latex."
+TITLE = "Software Systems"
+STUDENTSTRENGTH = "0"
+VENUE = "N/A"
+VENUE1 = "N/A"
+TIMESLOT = "N/A"
+#for AP,AA,AB,BB,BC,CC,CD,DD,DX,FR
+GRADES = ["0","0","0","0","0","0","0","0","0","0"]
+grade_index = {'AP':0,'AA':0,'AB':0,'BB':0,'BC':0,'CC':0,'CD':0,'DD':0,'DX':0,'FR':0}
+REFERENCES = "N/A"
+TYPE = "Theory+Lab"
+DURATION = "Full Semester"
+HOMEPAGE = "http://www.cse.iiitnr.ac.in/~sharat/current/cs251"
+PREREQUISITES = "N/A"
+#-----------------------------------------------------------------------------------

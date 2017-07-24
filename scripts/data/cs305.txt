@@ -1,0 +1,22 @@
+import re
+#-----------------------------------------------------------------------------------
+g = open('cs305.aiml','w')
+
+COURSECODE = "305"
+PROFESSOR = "Bhaskar Raman"
+CREDITS = "6"
+SYLLABUS = "Hardware Software Interface, Implementation of MIPS, Pipelining, Caches, Input Output System"
+TITLE = "Introduction to Computer Architecture"
+STUDENTSTRENGTH = "93"
+VENUE = "SIC 201"
+VENUE1 = "SIC 201, KreSit"
+TIMESLOT = "4"
+#for AP,AA,AB,BB,BC,CC,CD,DD,DX,FR
+GRADES = ["0","11","22","14","23","8","2","7","0","6"]
+grade_index={'AP':0,'AA':1,'AB':2,'BB':3,'BC':4,'CC':5,'CD':6,'DD':7,'DX':8,'FR':9}
+REFERENCES = "Computer Organization and Design: The Hardware/Software Interface, 3rd edition, David A. Patterson and John L. Hennessy, Elsevier (Restricted South Asia Edition)."
+TYPE = "Theory"
+DURATION = "Full Semester"
+HOMEPAGE = "http://bodhitree1.cse.iiitnr.ac.in/courseware/"
+PREREQUISITES = "CS213, CS206"
+#-----------------------------------------------------------------------------------

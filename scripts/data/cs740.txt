@@ -1,0 +1,22 @@
+import re
+#-----------------------------------------------------------------------------------
+g = open('cs740.aiml','w')
+
+COURSECODE = "740"
+PROFESSOR = "Sharat Chandran"
+CREDITS = "6"
+SYLLABUS = "The syllabus includes a subset of topics from the following list:, 1) Multivariate Calculus, * Functions (multi-variable, vector-valued) and their derivatives, Taylor series, matrix calculus, basic vector calculus, 2) Numerical Linear Algebra, * Special matrices (e.g., orthogonal, SPD), matrix decompositions (e.g., SVD, eigen analysis), 3) Probability and Statistics, * Distributions, mean, variance, covariance, bounds, likelihood function, Bayes rule, entropy, divergence, mutual information, 4) Optimization, * Unconstrained (gradient descent, Newton's method, Levenberg-Marquardt algorithm, quasi-Newton methods), constrained (equality constraints, Lagrange multipliers), 5) Interpolation and regression, * Linear, polynomial, Barycentric coordinates, 6) Numerical integration of functions and introductory numerical differential equations, 7) Introductory differential geometry, 8) Introductory projective geometry"
+TITLE = "Mathematics for Visual Computing"
+STUDENTSTRENGTH = "0"
+VENUE = "N/A"
+VENUE1 = "N/A"
+TIMESLOT = "N/A"
+#for AP,AA,AB,BB,BC,CC,CD,DD,DX,FR
+GRADES = ["0","0","0","0","0","0","0","0","0","0"]
+grade_index = {'AP':0,'AA':0,'AB':0,'BB':0,'BC':0,'CC':0,'CD':0,'DD':0,'DX':0,'FR':0}
+REFERENCES = "1., Title: Numerical Recipes - The Art of Scientific Computing, Authors: William H. Press, Saul A. Teukolsky, William T. Vetterling, Brian P. Flannery, Cambridge University Press 2007, 2., Title: Scientific Computing, Author: Michael T. Heath, McGraw-Hill 2002, 3., Title: Numerical Linear Algebra, Authors: Lloyd N. Trefethen, David Bau III, SIAM 1997, 4., Title: A First Course in Probability, Author: Sheldon Ross, Pearson Education 2012, 5., Title: Probability, Random Variables and Stochastic Processes, Authors: Athanasios Papoulis, S. Unnikrishna Pillai, McGraw-Hill 2002, 6., Title: Numerical Optimization, Authors: Jorge Nocedal, Stephen Wright, Springer 2006, 7., Title: Elements of Information Theory, Authors: Thomas M. Cover, Joy A. Thomas, Wiley-Interscience 2006"
+TYPE = "Theory"
+DURATION = "Full Semester"
+HOMEPAGE = "http://www.cse.iiitnr.ac.in/~sharat/current/cs740"
+PREREQUISITES = "N/A"
+#-----------------------------------------------------------------------------------

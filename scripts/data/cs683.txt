@@ -1,0 +1,22 @@
+import re
+#-----------------------------------------------------------------------------------
+g = open('cs683.aiml','w')
+
+COURSECODE = "683"
+PROFESSOR = "Virendra Singh"
+CREDITS = "6"
+SYLLABUS = "Introduction to High Performance Computing: Overview, Pipeline vs Parallel Processing Parallel Architectures : Classification and Performance. Pipeline Processing : Pipeline Performance, design of arithmetic pipelines, multifiction pipes, concept of reservation table, collision vector and hazards. Instruction Processing Pipes: Instruction and data hazard, hazard detection and resolution, delayed jumps, delayed execution. RISC Philosophy. Pipeline scheduling Theory: Greedy pipeline scheduling algorithm, state diagram, modified state diagram, Latency cycles, Optimal cycles, scheduling of static , dynamic Pipelines. Implementation of pipeline schedulers Interconnection Networks : Interconnection network classification, Single stage/ Multistage Networks, crossbars, clos Networks, Benes Networks , Routing algorithms. Omega, Cub-connected and other networks. Introduction to Neurocomputing Architectures Topics from the current literature as self study and presentations by students."
+TITLE = "Advanced Computer Architecture"
+STUDENTSTRENGTH = "0"
+VENUE = "N/A"
+VENUE1 = "N/A"
+TIMESLOT = "N/A"
+#for AP,AA,AB,BB,BC,CC,CD,DD,DX,FR
+GRADES = ["0","0","0","0","0","0","0","0","0","0"]
+grade_index = {'AP':0,'AA':0,'AB':0,'BB':0,'BC':0,'CC':0,'CD':0,'DD':0,'DX':0,'FR':0}
+REFERENCES = "M. R. Bhujade, Parallel Computing, Newage International Pvt. Ltd., 1995. Stallings, William, Computer organization and architecture, designing for performance, Prentice Hall of India, 1997 J. L. Hennessy and D. A. Patterson, Computer architecture : a quantitative approach, Harcourt Asia, Singapore 1996"
+TYPE = "Theory"
+DURATION = "Full Semester"
+HOMEPAGE = "http://www.cse.iiitnr.ac.in/~mrb"
+PREREQUISITES = "NIL"
+#-----------------------------------------------------------------------------------

@@ -1,0 +1,22 @@
+import re
+#-----------------------------------------------------------------------------------
+g = open('cs631.aiml','w')
+
+COURSECODE = "631"
+PROFESSOR = "Sudarshan S."
+CREDITS = "6"
+SYLLABUS = "Physical storage and indexing structures, Query processing algorithms, Query optimization, Transaction processing and serializability, Concurrency Control, Recovery. , Big data management: transaction and query processing on parallel and distributed databases including issues of availability, replication, consistency, concurrency control, and recovery. , Emerging database trends."
+TITLE = "Implementation Techniques for Relational Database Systems"
+STUDENTSTRENGTH = "0"
+VENUE = "N/A"
+VENUE1 = "N/A"
+TIMESLOT = "N/A"
+#for AP,AA,AB,BB,BC,CC,CD,DD,DX,FR
+GRADES = ["0","0","0","0","0","0","0","0","0","0"]
+grade_index = {'AP':0,'AA':0,'AB':0,'BB':0,'BC':0,'CC':0,'CD':0,'DD':0,'DX':0,'FR':0}
+REFERENCES = "Abraham Silberschatz, Henry F. Korth and S. Sudarshan, Database System Concepts 6th Ed, McGraw Hill, 2010.. , Transaction Processing, Concepts and Techniques, J. Gray and A. Reuter, Morgan Kauffman, 1994., Research papers from leading conferences and journals"
+TYPE = "Theory"
+DURATION = "Full Semester"
+HOMEPAGE = "http://www.cse.iiitnr.ac.in/infolab/Data/Courses/CS631/"
+PREREQUISITES = "Nil"
+#-----------------------------------------------------------------------------------

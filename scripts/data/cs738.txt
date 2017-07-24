@@ -1,0 +1,22 @@
+import re
+#-----------------------------------------------------------------------------------
+g = open('cs738.aiml','w')
+
+COURSECODE = "738"
+PROFESSOR = "Krishna S."
+CREDITS = "6"
+SYLLABUS = "(a) System Validation, - A high level over view of the purpose of system validation, simulation, testing, formal verification, model checking, automated theorem proving, (b) Model checking propositional linear time temporal logic, - Syntax of PLTL, Axiomatization, extensions of PLTL, specifying properties in PLTL,, - Basic model checking scheme for PLTL, translation of PLTL formulae to labelled Buchi automata, - Model checking complexity of PLTL, - The model checker SPIN, (c) Model checking branching temporal logic, - Syntax of CTL, Expressiveness of CTL, CTL_ and PLTL, specifying properties in CTL,, - Model checking CTL, _fixed point theory based on posets, fixed point characterization of CTL formulae,, fairness conditions, - Model checking complexity of CTL, - The model checker NuSMV, (d) Model checking real time temporal logic, - Syntax of TCTL, TPTL. Specifying timeliness properties in TCTL and TPTL, - Clock equivalence : the key to model checking real time, - Model checking region graphs, - Model checking complexity of TCTL and TPTL, - The model checkers UPPAAL, KRONOS, (e) Model checking propositional modal logic (ML) and first order logic(FO), - Syntax of ML, model checking games for ML, - Algorithms for finite games, alternating algorithms, - Evaluation game for FO, the guarded fragment of FO (GFO), - Model theoretic and algorithmic properties of GFO, - Model checking complexity of ML, FO, GFO, - Advantages of game based approach to model checking, (f) Model checking _fixed point logics, - Parity games and _fixed point logics, - Model checking games for _fixed point logics, - Model checking complexity of _fixed point logics, (g) Model checking probabilistic computation tree logic (PCTL), - Probabilistic systems, syntax of PCTL, PCTL model checking, the qualitative fragment of PCTL, - PCTL* and probabilistic bisimulation, - Markov decision processes, linear time properties and PCTL*, - The model checker PRISM"
+TITLE = "Concepts, Algorithms and Tools for Model-Checking"
+STUDENTSTRENGTH = "0"
+VENUE = "N/A"
+VENUE1 = "N/A"
+TIMESLOT = "N/A"
+#for AP,AA,AB,BB,BC,CC,CD,DD,DX,FR
+GRADES = ["0","0","0","0","0","0","0","0","0","0"]
+grade_index = {'AP':0,'AA':0,'AB':0,'BB':0,'BC':0,'CC':0,'CD':0,'DD':0,'DX':0,'FR':0}
+REFERENCES = "- Dexter Kozen. Automata and Computability, Springer, 1997., - Mike Sipser. Introduction to the Theory of Computation, PWS Publishing Company, 1997., - Christel Baier and Joost-Pieter Katoen. Principles of Model Checking,MIT Press, 2008., - Erich Gradel, Wolfgang Thomas, Thomas Wilke. Automata, logics, and in, nite games: a guide to current, research. LNCS, Springer-Verlag., - Marta Kwiatkowska, Gethin Norman and David Parker Stochastic Model Checking. In M. Bernardo and J. , Hillston (editors) Formal Methods for the Design of Computer, Communication and Software Systems: , Performance Evaluation (SFM'07), volume 4486 of Lecture Notes in Computer Science (Tutorial Volume),, pages 220-270, Springer, June 2007., - Vojtch Forejt, Marta Kwiatkowska, Gethin Norman and David Parker. Automated Veri, cation Techniques for, Probabilistic Systems. In M. Bernardo and V. Issarny (editors) Formal Methods for Eternal Networked , Software Systems (SFM'11), volume 6659 of LNCS, pages 53-113, Springer. June 2011."
+TYPE = "Project"
+DURATION = "Full Semester"
+HOMEPAGE = "http://moodle.iiitnr.ac.in/course"
+PREREQUISITES = "Good undergraduate background (atleast BB) in Automata and Logic (CS 208)"
+#-----------------------------------------------------------------------------------

@@ -1,0 +1,22 @@
+import re
+#-----------------------------------------------------------------------------------
+g = open('cs725.aiml','w')
+
+COURSECODE = "725"
+PROFESSOR = "Saketha Nath J"
+CREDITS = "6"
+SYLLABUS = "Remedial co-requisite: Mathematical foundations (Separately proposed by Prof. Saketh Nath), Recommended parallel courses: CS709 (Convex optimization), Course Content :, Supervised learning: decision trees, nearest neighbor classifiers, generative classifiers like naive Bayes, linear discriminate analysis, loss regularization framework for classification, Support vector Machines, Regression methods: least-square regression, kernel regression, regression trees, Unsupervised learning: k-means, hierarchical, EM, non-negative matrix factorization, rate distortion theory."
+TITLE = "Foundations of machine learning"
+STUDENTSTRENGTH = "0"
+VENUE = "N/A"
+VENUE1 = "N/A"
+TIMESLOT = "N/A"
+#for AP,AA,AB,BB,BC,CC,CD,DD,DX,FR
+GRADES = ["0","0","0","0","0","0","0","0","0","0"]
+grade_index = {'AP':0,'AA':0,'AB':0,'BB':0,'BC':0,'CC':0,'CD':0,'DD':0,'DX':0,'FR':0}
+REFERENCES = "1. Hastie, Tibshirani, Friedman The elements of Statistical Learning Springer Verlag., 2. Pattern recognition and machine learning by Christopher Bishop., 3. Selected papers."
+TYPE = "Theory"
+DURATION = "Full Semester"
+HOMEPAGE = "http://www.cse.iiitnr.ac.in/~sunita/cs725"
+PREREQUISITES = "N/A"
+#-----------------------------------------------------------------------------------

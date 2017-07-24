@@ -1,0 +1,240 @@
+Possible Queries:
+
+/// which professor ///
+Who is teaching CS344 this semester?
+Which professor is teaching CS344 this semester?
+Which teacher is teaching CS344 this semester?
+Which prof is teaching CS344 this semester?
+Who is instructing CS344 this semester?
+Which instructor is teaching CS344 this semester?
+Which professor is instructing CS344 this semester?
+Which prof is instructing CS344 this semester?
+Which teacher is instructing CS344 this semester?
+Which instructor is instructing CS344 this semester?
+Who is teaching CS344?
+Which professor is teaching CS344?
+Which prof is teaching CS344?
+Which teacher is teaching CS344?
+Which instructor is teaching CS344?
+Who is instructing CS344?
+Which professor is instructing CS344?
+Which prof is instructing CS344?
+Which teacher is instructing CS344?
+Which instructor is instructing CS344?
+Who is teaching CS 344 this semester?
+Which professor is teaching CS 344 this semester?
+Which prof is teaching CS 344 this semester?
+Which teacher is teaching CS 344 this semester?
+Which instructor is teaching CS 344 this semester?
+Who is instructing CS 344 this semester?
+Which professor is instructing CS 344 this semester?
+Which prof is instructing CS 344 this semester?
+Which teacher is insructing CS 344 this semester?
+Which instructor is instructing CS 344 this semester?
+Who is teaching CS 344?
+Which professor is teaching CS 344?
+Which prof is teaching CS 344?
+Which teacher is teaching CS 344?
+Which instructor is teaching CS 344?
+Who is instructing CS 344?
+Which professor is instructing CS 344?
+Which prof is instructing CS 344?
+Which teacher is instructing CS 344?
+Which instructor is instructing CS 344?
+Who has been teaching CS344 this semester?
+Which professor has been teaching CS344 this semester?
+Which prof has been teaching CS344 this semester?
+Which instructor has been teaching CS344 this semester?
+Who has been instructing CS344 this semester?
+Which professor has been instructing CS344 this semester?
+Which prof has been instructing CS344 this semester?
+Which instructor has been instructing CS344 this semester?
+Who has been teaching CS344?
+Which professor has been teaching CS344?
+Which prof has been teaching CS344?
+Which instructor has been teaching CS344?
+Who has been instructing CS344?
+Which professor has been instructing CS344?
+Which prof has been instructing CS344?
+Which instructor has been instructing CS344?
+Who has been teaching CS 344 this semester?
+Which professor has been teaching CS 344 this semester?
+Which prof has been teaching CS 344 this semester?
+Which instructor has been teaching CS 344 this semester?
+Who has been instructing CS 344 this semester?
+Which professor has been instructing CS 344 this semester?
+Which prof has been instructing CS 344 this semester?
+Which instructor has been instructing CS 344 this semester?
+Who has been teaching CS 344?
+Which professor has been teaching CS 344?
+Which prof has been teaching CS 344?
+Which instructor has been teaching CS 344?
+Who has been instructing CS 344?
+Which professor has been instructing CS 344?
+Which prof has been instructing CS 344?
+Which instructor has been instructing CS 344?
+Who will teach me CS344 this semester?
+Which professor will teach me CS344 this semester?
+Which prof will teach me CS344 this semester?
+Which instructor will teach me CS344 this semester?
+Who will instruct me CS344 this semester?
+Which professor will instruct me CS344 this semester?
+Which prof will instruct me CS344 this semester?
+Which instructor will instruct me CS344 this semester?
+Who will teach me CS344?
+Which professor will teach me CS344?
+Which prof will teach me CS344?
+Which instructor will teach me CS344?
+Who will instruct me CS344?
+Which professor will instruct me CS344?
+Which prof will instruct me CS344?
+Which instructor will instruct me CS344?
+Who will teach me CS 344 this semester?
+Which professor will teach me CS 344 this semester?
+Which prof will teach me CS 344 this semester?
+Which instructor will teach me CS 344 this semester?
+Who will instruct me CS 344 this semester?
+Which professor will instruct me CS 344 this semester?
+Which prof will instruct me CS 344 this semester?
+Which instructor will instruct me CS 344 this semester?
+Who will teach me CS 344?
+Which professor will teach me CS 344?
+Which prof will teach me CS 344?
+Which instructor will teach me CS 344?
+Who will instruct me CS 344?
+Which professor will instruct me CS 344?
+Which prof will instruct me CS 344?
+Which instructor will instruct me CS 344?
+Who teaches CS344 this semester?
+Which professor teaches CS344 this semester?
+Which teacher teaches CS344 this semester?
+Which prof teaches CS344 this semester?
+Who instructs CS344 this semester?
+Which instructor teaches CS344 this semester?
+Which professor instructs CS344 this semester?
+Which prof instructs CS344 this semester?
+Which teacher instructs CS344 this semester?
+Which instructor instructs CS344 this semester?
+Who teaches CS344?
+Which professor teaches CS344?
+Which prof teaches CS344?
+Which teacher teaches CS344?
+Which instructor teaches CS344?
+Who instructs CS344?
+Which professor instructs CS344?
+Which prof instructs CS344?
+Which teacher instructs CS344?
+Which instructor instructs CS344?
+Who teaches CS 344 this semester?
+Which professor teaches CS 344 this semester?
+Which prof teaches CS 344 this semester?
+Which teacher teaches CS 344 this semester?
+Which instructor teaches CS 344 this semester?
+Who instructs CS 344 this semester?
+Which professor instructs CS 344 this semester?
+Which prof instructs CS 344 this semester?
+Which teacher is insructing CS 344 this semester?
+Which instructor instructs CS 344 this semester?
+Who teaches CS 344?
+Which professor teaches CS 344?
+Which prof teaches CS 344?
+Which teacher teaches CS 344?
+Which instructor teaches CS 344?
+Who instructs CS 344?
+Which professor instructs CS 344?
+Which prof instructs CS 344?
+Which teacher instructs CS 344?
+Which instructor instructs CS 344?
+Who will be teaching CS344 this semester?
+Which professor will be teaching CS344 this semester?
+Which teacher will be teaching CS344 this semester?
+Which prof will be teaching CS344 this semester?
+Who will be instructing CS344 this semester?
+Which instructor will be teaching CS344 this semester?
+Which professor will be instructing CS344 this semester?
+Which prof will be instructing CS344 this semester?
+Which teacher will be instructing CS344 this semester?
+Which instructor will be instructing CS344 this semester?
+Who will be teaching CS344?
+Which professor will be teaching CS344?
+Which prof will be teaching CS344?
+Which teacher will be teaching CS344?
+Which instructor will be teaching CS344?
+Who will be instructing CS344?
+Which professor will be instructing CS344?
+Which prof will be instructing CS344?
+Which teacher will be instructing CS344?
+Which instructor will be instructing CS344?
+Who will be teaching CS 344 this semester?
+Which professor will be teaching CS 344 this semester?
+Which prof will be teaching CS 344 this semester?
+Which teacher will be teaching CS 344 this semester?
+Which instructor will be teaching CS 344 this semester?
+Who will be instructing CS 344 this semester?
+Which professor will be instructing CS 344 this semester?
+Which prof will be instructing CS 344 this semester?
+Which teacher will be insructing CS 344 this semester?
+Which instructor will be instructing CS 344 this semester?
+Who will be teaching CS 344?
+Which professor will be teaching CS 344?
+Which prof will be teaching CS 344?
+Which teacher will be teaching CS 344?
+Which instructor will be teaching CS 344?
+Who will be instructing CS 344?
+Which professor will be instructing CS 344?
+Which prof will be instructing CS 344?
+Which teacher will be instructing CS 344?
+Which instructor will be instructing CS 344?
+CS344 will be taught by whom?
+CS344 will be taught by which professor?
+CS344 will be taught by which prof?
+CS344 will be taught by which instructor?
+CS344 will be instructed by whom?
+CS344 will be instructed by which professor?
+CS344 will be instructed by which prof?
+CS344 will be instructed by which instructor?
+CS 344 will be taught by whom?
+CS 344 will be taught by which professor?
+CS 344 will be taught by which prof?
+CS 344 will be taught by which instructor?
+CS 344 will be instructed by whom?
+CS 344 will be instructed by which professor?
+CS 344 will be instructed by which prof?
+CS 344 will be instructed by which instructor?
+
+// add queries of type who will be taking ... etc. //
+/// ends here ///
+
+// Credits for the course //
+How many credits is the course worth of?
+How many credits are there in this course?
+What are the number of credits in this course?
+What is the number of credits in this course?
+This course is worth how many credits?
+This course is worth what number of credits?
+
+/// ends here ///
+
+// Syllabus for the course //
+What are the contents of the course?
+What is the syllabus for the course?
+What contents is covered by the course?
+What syllabus is covered by the course?
+What is the curriculum of the course?
+What is the outline of the course?
+What things are covered by the course?
+What things are included in the course?
+
+/// ends here ///
+
+// Grade Queries //
+What is the grading scheme of this course?
+What is the grading statistics of this course?
+How many students got <grade> in this course? // depends on past data - need to consider
+How many people got <grade> in this course? // depends on past data - need to consider
+How many students will get <grade> in this course?
+How many people will get <grade> in this course?
+
+/// ends here ///
+
+// 

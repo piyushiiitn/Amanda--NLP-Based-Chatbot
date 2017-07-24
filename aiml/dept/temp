@@ -1,0 +1,684 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0">
+
+<category>
+	<pattern>_ PROFESSOR _ CS 344</pattern>
+	<template><srai>INSTRUCTOR 344</srai></template>
+</category>
+
+<category>
+	<pattern>_ PROFESSOR _ CS344</pattern>
+	<template><srai>INSTRUCTOR 344</srai></template>
+</category>
+
+<category>
+	<pattern>_ PROFESSOR _ CS 344 _</pattern>
+	<template><srai>INSTRUCTOR 344</srai></template>
+</category>
+
+<category>
+	<pattern>_ PROFESSOR _ CS344 _</pattern>
+	<template><srai>INSTRUCTOR 344</srai></template>
+</category>
+
+<category>
+	<pattern>_ CS344 _ PROFESSOR _</pattern>
+	<template><srai>INSTRUCTOR 344</srai></template>
+</category>
+
+<category>
+	<pattern>_ CS 344 _ PROFESSOR _</pattern>
+	<template><srai>INSTRUCTOR 344</srai></template>
+</category>
+
+<category>
+	<pattern>CS344 _ PROFESSOR _</pattern>
+	<template><srai>INSTRUCTOR 344</srai></template>
+</category>
+
+<category>
+	<pattern>CS 344 _ PROFESSOR _</pattern>
+	<template><srai>INSTRUCTOR 344</srai></template>
+</category>
+
+<category>
+	<pattern>_ CS344 _ PROFESSOR</pattern>
+	<template><srai>INSTRUCTOR 344</srai></template>
+</category>
+
+<category>
+	<pattern>_ CS 344 _ PROFESSOR</pattern>
+	<template><srai>INSTRUCTOR 344</srai></template>
+</category>
+
+<!-- professor ends -->
+<category>
+	<pattern>_ INSTRUCTOR _ CS 344</pattern>
+	<template><srai>INSTRUCTOR 344</srai></template>
+</category>
+
+<category>
+	<pattern>_ INSTRUCTOR _ CS344</pattern>
+	<template><srai>INSTRUCTOR 344</srai></template>
+</category>
+
+<category>
+	<pattern>_ INSTRUCTOR _ CS 344 _</pattern>
+	<template><srai>INSTRUCTOR 344</srai></template>
+</category>
+
+<category>
+	<pattern>_ INSTRUCTOR _ CS344 _</pattern>
+	<template><srai>INSTRUCTOR 344</srai></template>
+</category>
+
+<category>
+	<pattern>_ CS344 _ INSTRUCTOR _</pattern>
+	<template><srai>INSTRUCTOR 344</srai></template>
+</category>
+
+<category>
+	<pattern>_ CS 344 _ INSTRUCTOR _</pattern>
+	<template><srai>INSTRUCTOR 344</srai></template>
+</category>
+
+<category>
+	<pattern>CS344 _ INSTRUCTOR _</pattern>
+	<template><srai>INSTRUCTOR 344</srai></template>
+</category>
+
+<category>
+	<pattern>CS 344 _ INSTRUCTOR _</pattern>
+	<template><srai>INSTRUCTOR 344</srai></template>
+</category>
+
+<category>
+	<pattern>_ CS344 _ INSTRUCTOR</pattern>
+	<template><srai>INSTRUCTOR 344</srai></template>
+</category>
+
+<category>
+	<pattern>_ CS 344 _ INSTRUCTOR</pattern>
+	<template><srai>INSTRUCTOR 344</srai></template>
+</category>
+
+<!-- instructor ends -->
+
+<category>
+	<pattern>_ TEACHER _ CS 344</pattern>
+	<template><srai>INSTRUCTOR 344</srai></template>
+</category>
+
+<category>
+	<pattern>_ TEACHER _ CS344</pattern>
+	<template><srai>INSTRUCTOR 344</srai></template>
+</category>
+
+<category>
+	<pattern>_ TEACHER _ CS 344 _</pattern>
+	<template><srai>INSTRUCTOR 344</srai></template>
+</category>
+
+<category>
+	<pattern>_ TEACHER _ CS344 _</pattern>
+	<template><srai>INSTRUCTOR 344</srai></template>
+</category>
+
+<category>
+	<pattern>_ CS344 _ TEACHER _</pattern>
+	<template><srai>INSTRUCTOR 344</srai></template>
+</category>
+
+<category>
+	<pattern>_ CS 344 _ TEACHER _</pattern>
+	<template><srai>INSTRUCTOR 344</srai></template>
+</category>
+
+<category>
+	<pattern>CS344 _ TEACHER _</pattern>
+	<template><srai>INSTRUCTOR 344</srai></template>
+</category>
+
+<category>
+	<pattern>CS 344 _ TEACHER _</pattern>
+	<template><srai>INSTRUCTOR 344</srai></template>
+</category>
+
+<category>
+	<pattern>_ CS344 _ TEACHER</pattern>
+	<template><srai>INSTRUCTOR 344</srai></template>
+</category>
+
+<category>
+	<pattern>_ CS 344 _ TEACHER</pattern>
+	<template><srai>INSTRUCTOR 344</srai></template>
+</category>
+
+<!-- teacher ends -->
+
+<category>
+	<pattern>_ PROF _ CS 344</pattern>
+	<template><srai>INSTRUCTOR 344</srai></template>
+</category>
+
+<category>
+	<pattern>_ PROF _ CS344</pattern>
+	<template><srai>INSTRUCTOR 344</srai></template>
+</category>
+
+<category>
+	<pattern>_ PROF _ CS 344 _</pattern>
+	<template><srai>INSTRUCTOR 344</srai></template>
+</category>
+
+<category>
+	<pattern>_ PROF _ CS344 _</pattern>
+	<template><srai>INSTRUCTOR 344</srai></template>
+</category>
+
+<category>
+	<pattern>_ CS344 _ PROF _</pattern>
+	<template><srai>INSTRUCTOR 344</srai></template>
+</category>
+
+<category>
+	<pattern>_ CS 344 _ PROF _</pattern>
+	<template><srai>INSTRUCTOR 344</srai></template>
+</category>
+
+<category>
+	<pattern>CS344 _ PROF _</pattern>
+	<template><srai>INSTRUCTOR 344</srai></template>
+</category>
+
+<category>
+	<pattern>CS 344 _ PROF _</pattern>
+	<template><srai>INSTRUCTOR 344</srai></template>
+</category>
+
+<category>
+	<pattern>_ CS344 _ PROF</pattern>
+	<template><srai>INSTRUCTOR 344</srai></template>
+</category>
+
+<category>
+	<pattern>_ CS 344 _ PROF</pattern>
+	<template><srai>INSTRUCTOR 344</srai></template>
+</category>
+
+<!-- prof ends -->
+
+<!-- seriously bro verbs part begin-->
+<category>
+	<pattern>_ TEACHES CS344</pattern>
+	<template><srai>INSTRUCTOR 344</srai></template>
+</category>
+
+<category>
+	<pattern>_ TEACHES CS344 _</pattern>
+	<template><srai>INSTRUCTOR 344</srai></template>
+</category>
+
+<category>
+	<pattern>_ TEACHES _ CS344 _</pattern>
+	<template><srai>INSTRUCTOR 344</srai></template>
+</category>
+
+<category>
+	<pattern>_ TEACHES _ CS344</pattern>
+	<template><srai>INSTRUCTOR 344</srai></template>
+</category>
+
+<!-- with space -->
+<category>
+	<pattern>_ TEACHES CS 344</pattern>
+	<template><srai>INSTRUCTOR 344</srai></template>
+</category>
+
+<category>
+	<pattern>_ TEACHES CS 344 _</pattern>
+	<template><srai>INSTRUCTOR 344</srai></template>
+</category>
+
+<category>
+	<pattern>_ TEACHES _ CS 344 _</pattern>
+	<template><srai>INSTRUCTOR 344</srai></template>
+</category>
+
+<category>
+	<pattern>_ TEACHES _ CS 344</pattern>
+	<template><srai>INSTRUCTOR 344</srai></template>
+</category>
+<!-- teaches ends here -->
+
+<category>
+	<pattern>_ TEACHING CS344</pattern>
+	<template><srai>INSTRUCTOR 344</srai></template>
+</category>
+
+<category>
+	<pattern>_ TEACHING CS344 _</pattern>
+	<template><srai>INSTRUCTOR 344</srai></template>
+</category>
+
+<category>
+	<pattern>_ TEACHING _ CS344 _</pattern>
+	<template><srai>INSTRUCTOR 344</srai></template>
+</category>
+
+<category>
+	<pattern>_ TEACHING _ CS344</pattern>
+	<template><srai>INSTRUCTOR 344</srai></template>
+</category>
+
+<!-- with space -->
+<category>
+	<pattern>_ TEACHING CS 344</pattern>
+	<template><srai>INSTRUCTOR 344</srai></template>
+</category>
+
+<category>
+	<pattern>_ TEACHING CS 344 _</pattern>
+	<template><srai>INSTRUCTOR 344</srai></template>
+</category>
+
+<category>
+	<pattern>_ TEACHING _ CS 344 _</pattern>
+	<template><srai>INSTRUCTOR 344</srai></template>
+</category>
+
+<category>
+	<pattern>_ TEACHING _ CS 344</pattern>
+	<template><srai>INSTRUCTOR 344</srai></template>
+</category>
+<!-- teaching ends here -->
+
+
+<category>
+	<pattern>_ TEACH CS344</pattern>
+	<template><srai>INSTRUCTOR 344</srai></template>
+</category>
+
+<category>
+	<pattern>_ TEACH CS344 _</pattern>
+	<template><srai>INSTRUCTOR 344</srai></template>
+</category>
+
+<category>
+	<pattern>_ TEACH _ CS344 _</pattern>
+	<template><srai>INSTRUCTOR 344</srai></template>
+</category>
+
+<category>
+	<pattern>_ TEACH _ CS344</pattern>
+	<template><srai>INSTRUCTOR 344</srai></template>
+</category>
+
+<!-- with space -->
+<category>
+	<pattern>_ TEACH CS 344</pattern>
+	<template><srai>INSTRUCTOR 344</srai></template>
+</category>
+
+<category>
+	<pattern>_ TEACH CS 344 _</pattern>
+	<template><srai>INSTRUCTOR 344</srai></template>
+</category>
+
+<category>
+	<pattern>_ TEACH _ CS 344 _</pattern>
+	<template><srai>INSTRUCTOR 344</srai></template>
+</category>
+
+<category>
+	<pattern>_ TEACH _ CS 344</pattern>
+	<template><srai>INSTRUCTOR 344</srai></template>
+</category>
+<!-- teach ends here -->
+
+<category>
+	<pattern>_ TAUGHT CS 344</pattern>
+	<template><srai>INSTRUCTOR 344</srai></template>
+</category>
+
+<category>
+	<pattern>_ TAUGHT CS344</pattern>
+	<template><srai>INSTRUCTOR 344</srai></template>
+</category>
+
+<category>
+	<pattern>_ TAUGHT CS 344 _</pattern>
+	<template><srai>INSTRUCTOR 344</srai></template>
+</category>
+
+<category>
+	<pattern>_ TAUGHT CS344 _</pattern>
+	<template><srai>INSTRUCTOR 344</srai></template>
+</category>
+
+<category>
+	<pattern>_ CS 344 TAUGHT</pattern>
+	<template><srai>INSTRUCTOR 344</srai></template>
+</category>
+
+<category>
+	<pattern>_ CS344 TAUGHT</pattern>
+	<template><srai>INSTRUCTOR 344</srai></template>
+</category>
+
+<category>
+	<pattern>_ CS 344 TAUGHT _</pattern>
+	<template><srai>INSTRUCTOR 344</srai></template>
+</category>
+
+<category>
+	<pattern>_ CS344 TAUGHT _</pattern>
+	<template><srai>INSTRUCTOR 344</srai></template>
+</category>
+
+<category>
+	<pattern>_ TAUGHT _ CS 344</pattern>
+	<template><srai>INSTRUCTOR 344</srai></template>
+</category>
+
+<category>
+	<pattern>_ TAUGHT _ CS344</pattern>
+	<template><srai>INSTRUCTOR 344</srai></template>
+</category>
+
+<category>
+	<pattern>_ TAUGHT _ CS 344 _</pattern>
+	<template><srai>INSTRUCTOR 344</srai></template>
+</category>
+
+<category>
+	<pattern>_ TAUGHT _ CS344 _</pattern>
+	<template><srai>INSTRUCTOR 344</srai></template>
+</category>
+
+<category>
+	<pattern>_ CS344 _ TAUGHT _</pattern>
+	<template><srai>INSTRUCTOR 344</srai></template>
+</category>
+
+<category>
+	<pattern>_ CS 344 _ TAUGHT _</pattern>
+	<template><srai>INSTRUCTOR 344</srai></template>
+</category>
+
+<category>
+	<pattern>CS344 _ TAUGHT _</pattern>
+	<template><srai>INSTRUCTOR 344</srai></template>
+</category>
+
+<category>
+	<pattern>CS 344 _ TAUGHT _</pattern>
+	<template><srai>INSTRUCTOR 344</srai></template>
+</category>
+
+<category>
+	<pattern>_ CS344 _ TAUGHT</pattern>
+	<template><srai>INSTRUCTOR 344</srai></template>
+</category>
+
+<category>
+	<pattern>_ CS 344 _ TAUGHT</pattern>
+	<template><srai>INSTRUCTOR 344</srai></template>
+</category>
+
+<!-- everything with goddamn verb "teach" ends -->
+<!-- no begins instruct -->
+<category>
+	<pattern>_ INSTRUCTS CS344</pattern>
+	<template><srai>INSTRUCTOR 344</srai></template>
+</category>
+
+<category>
+	<pattern>_ INSTRUCTS CS344 _</pattern>
+	<template><srai>INSTRUCTOR 344</srai></template>
+</category>
+
+<category>
+	<pattern>_ INSTRUCTS _ CS344 _</pattern>
+	<template><srai>INSTRUCTOR 344</srai></template>
+</category>
+
+<category>
+	<pattern>_ INSTRUCTS _ CS344</pattern>
+	<template><srai>INSTRUCTOR 344</srai></template>
+</category>
+
+<!-- with space -->
+<category>
+	<pattern>_ INSTRUCTS CS 344</pattern>
+	<template><srai>INSTRUCTOR 344</srai></template>
+</category>
+
+<category>
+	<pattern>_ INSTRUCTS CS 344 _</pattern>
+	<template><srai>INSTRUCTOR 344</srai></template>
+</category>
+
+<category>
+	<pattern>_ INSTRUCTS _ CS 344 _</pattern>
+	<template><srai>INSTRUCTOR 344</srai></template>
+</category>
+
+<category>
+	<pattern>_ INSTRUCTS _ CS 344</pattern>
+	<template><srai>INSTRUCTOR 344</srai></template>
+</category>
+<!-- INSTRUCTS ends here -->
+
+<category>
+	<pattern>_ INSTRUCTING CS344</pattern>
+	<template><srai>INSTRUCTOR 344</srai></template>
+</category>
+
+<category>
+	<pattern>_ INSTRUCTING CS344 _</pattern>
+	<template><srai>INSTRUCTOR 344</srai></template>
+</category>
+
+<category>
+	<pattern>_ INSTRUCTING _ CS344 _</pattern>
+	<template><srai>INSTRUCTOR 344</srai></template>
+</category>
+
+<category>
+	<pattern>_ INSTRUCTING _ CS344</pattern>
+	<template><srai>INSTRUCTOR 344</srai></template>
+</category>
+
+<!-- with space -->
+<category>
+	<pattern>_ INSTRUCTING CS 344</pattern>
+	<template><srai>INSTRUCTOR 344</srai></template>
+</category>
+
+<category>
+	<pattern>_ INSTRUCTING CS 344 _</pattern>
+	<template><srai>INSTRUCTOR 344</srai></template>
+</category>
+
+<category>
+	<pattern>_ INSTRUCTING _ CS 344 _</pattern>
+	<template><srai>INSTRUCTOR 344</srai></template>
+</category>
+
+<category>
+	<pattern>_ INSTRUCTING _ CS 344</pattern>
+	<template><srai>INSTRUCTOR 344</srai></template>
+</category>
+<!-- INSTRUCTING ends here -->
+
+
+<category>
+	<pattern>_ INSTRUCT CS344</pattern>
+	<template><srai>INSTRUCTOR 344</srai></template>
+</category>
+
+<category>
+	<pattern>_ INSTRUCT CS344 _</pattern>
+	<template><srai>INSTRUCTOR 344</srai></template>
+</category>
+
+<category>
+	<pattern>_ INSTRUCT _ CS344 _</pattern>
+	<template><srai>INSTRUCTOR 344</srai></template>
+</category>
+
+<category>
+	<pattern>_ INSTRUCT _ CS344</pattern>
+	<template><srai>INSTRUCTOR 344</srai></template>
+</category>
+
+<!-- with space -->
+<category>
+	<pattern>_ INSTRUCT CS 344</pattern>
+	<template><srai>INSTRUCTOR 344</srai></template>
+</category>
+
+<category>
+	<pattern>_ INSTRUCT CS 344 _</pattern>
+	<template><srai>INSTRUCTOR 344</srai></template>
+</category>
+
+<category>
+	<pattern>_ INSTRUCT _ CS 344 _</pattern>
+	<template><srai>INSTRUCTOR 344</srai></template>
+</category>
+
+<category>
+	<pattern>_ INSTRUCT _ CS 344</pattern>
+	<template><srai>INSTRUCTOR 344</srai></template>
+</category>
+<!-- INSTRUCT ends here -->
+
+<category>
+	<pattern>_ INSTRUCTED CS 344</pattern>
+	<template><srai>INSTRUCTOR 344</srai></template>
+</category>
+
+<category>
+	<pattern>_ INSTRUCTED CS344</pattern>
+	<template><srai>INSTRUCTOR 344</srai></template>
+</category>
+
+<category>
+	<pattern>_ INSTRUCTED CS 344 _</pattern>
+	<template><srai>INSTRUCTOR 344</srai></template>
+</category>
+
+<category>
+	<pattern>_ INSTRUCTED CS344 _</pattern>
+	<template><srai>INSTRUCTOR 344</srai></template>
+</category>
+
+<category>
+	<pattern>_ CS 344 INSTRUCTED</pattern>
+	<template><srai>INSTRUCTOR 344</srai></template>
+</category>
+
+<category>
+	<pattern>_ CS344 INSTRUCTED</pattern>
+	<template><srai>INSTRUCTOR 344</srai></template>
+</category>
+
+<category>
+	<pattern>_ CS 344 INSTRUCTED _</pattern>
+	<template><srai>INSTRUCTOR 344</srai></template>
+</category>
+
+<category>
+	<pattern>_ CS344 INSTRUCTED _</pattern>
+	<template><srai>INSTRUCTOR 344</srai></template>
+</category>
+
+<category>
+	<pattern>_ INSTRUCTED _ CS 344</pattern>
+	<template><srai>INSTRUCTOR 344</srai></template>
+</category>
+
+<category>
+	<pattern>_ INSTRUCTED _ CS344</pattern>
+	<template><srai>INSTRUCTOR 344</srai></template>
+</category>
+
+<category>
+	<pattern>_ INSTRUCTED _ CS 344 _</pattern>
+	<template><srai>INSTRUCTOR 344</srai></template>
+</category>
+
+<category>
+	<pattern>_ INSTRUCTED _ CS344 _</pattern>
+	<template><srai>INSTRUCTOR 344</srai></template>
+</category>
+
+<category>
+	<pattern>_ CS344 _ INSTRUCTED _</pattern>
+	<template><srai>INSTRUCTOR 344</srai></template>
+</category>
+
+<category>
+	<pattern>_ CS 344 _ INSTRUCTED _</pattern>
+	<template><srai>INSTRUCTOR 344</srai></template>
+</category>
+
+<category>
+	<pattern>CS344 _ INSTRUCTED _</pattern>
+	<template><srai>INSTRUCTOR 344</srai></template>
+</category>
+
+<category>
+	<pattern>CS 344 _ INSTRUCTED _</pattern>
+	<template><srai>INSTRUCTOR 344</srai></template>
+</category>
+
+<category>
+	<pattern>_ CS344 _ INSTRUCTED</pattern>
+	<template><srai>INSTRUCTOR 344</srai></template>
+</category>
+
+<category>
+	<pattern>_ CS 344 _ INSTRUCTED</pattern>
+	<template><srai>INSTRUCTOR 344</srai></template>
+</category>
+
+
+
+
+<!-- ###################credits####################### -->
+<category>
+	<pattern>HOW MANY CREDITS IS CS344 WORTH?</pattern>
+	<template><srai>CREDITS 344</srai></template>
+</category>
+
+<!-- answers -->
+<category>
+	<pattern>INSTRUCTOR 344</pattern>
+	<template>
+		<random>
+			<li>$G.Shivakumar is teaching CS344.</li>
+			<li>$Professor G.Shivakumar will be teaching CS344. </li>
+			<li>$Instructor of CS344 is Professor G.Shivakumar. </li>
+			<li>$CS344 is running under instruction of Professor G.Shivakumar. </li> 
+		</random>
+	</template>
+</category>
+
+<category><pattern>CREDITS 344</pattern>
+<template>$CS344 is worth 6 credits.</template>
+</category>
+<!-- <category><pattern>XBINARY THE NUMBER _</pattern><template><srai>XBINARY <star/></srai></template></category>
+<category><pattern>XBINARY 0</pattern><template>0.</template></category>
+<category><pattern>XBINARY 1</pattern><template>1.</template></category>
+ -->
+<!-- next semester queries -->
+<!-- extra -->
+
+<category><pattern>BULLU _</pattern>
+<template>I know what you mean ghanta. <system>echo $USER</system> </template>
+</category>
+
+</aiml>

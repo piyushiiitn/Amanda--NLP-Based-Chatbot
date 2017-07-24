@@ -1,0 +1,22 @@
+import re
+#-----------------------------------------------------------------------------------
+g = open('cs745.aiml','w')
+
+COURSECODE = "745"
+PROFESSOR = "R K. Shyamasundar"
+CREDITS = "6"
+SYLLABUS = "Access Control: Mandatory Access Control, Discrete Access Control, Principles of Least Privilege, Distributed Access Control , Role based Access, Attribute Based Access, Key Management, SPKI/SDSI, Concepts of Security: Confidentiality, Containment, isolation, Privacy, Anonymity, pseudo-anonymity etc., Policy specification, User authentication, Session management, multi-level security, multi-lateral security, Security Mechanisms: Protection, Confinement, Isolation, Virtual machines, Non-interference Dealing with legacy code, Sandboxes, Separability, Data caging, OS Security: Principles, Case studies of Operating Systems, secure OS like SELINUX, Run-Time Monitoring: Security Automata, Edit Automata, Shallow Automata,, Malware analysis and Counter measures: difficulties, approaches, defense against untrusted code, Security Models for Information Systems: Bell-LaPadula, Biba, Clark-Wilson, Lattice Model, Chinese Wall Model, Information Flow Models: Distributed Information Control, Secure OS based on IFC, Conference management systems like EasyChair, HotCrp, Language based security: Program analysis for Security, secure code practices and tools for secure code writing, Protocol Specification and Verification: Principles, Cryptographic protocols, protocol specification language characteristics., Web security models, application security, Browser Security, Information flow browsers, Special Topics: Mobile phone security, Android Security, Cloud security, Security of Internet of Things (IoT)"
+TITLE = "Principles of Data and System Security"
+STUDENTSTRENGTH = "0"
+VENUE = "N/A"
+VENUE1 = "N/A"
+TIMESLOT = "N/A"
+#for AP,AA,AB,BB,BC,CC,CD,DD,DX,FR
+GRADES = ["0","0","0","0","0","0","0","0","0","0"]
+grade_index = {'AP':0,'AA':0,'AB':0,'BB':0,'BC':0,'CC':0,'CD':0,'DD':0,'DX':0,'FR':0}
+REFERENCES = "Chapters from classic books like, Ross Anderson, Security Engineering, 2nd Edition, Wiley publishers, 2008, Morrie Gasser, Building a Secure Computer System,Von Nostrand Reinhold,1988, Matt Bishop, Computer Security Art and Science, Addison Wesley, 2003, Dorothy Denning, Cryptography and Data Security, Addison Wesley, 1982"
+TYPE = "Theory"
+DURATION = "Full Semester"
+HOMEPAGE = "www.cse.iiitnr.ac.in/~cs745"
+PREREQUISITES = "N/A"
+#-----------------------------------------------------------------------------------
